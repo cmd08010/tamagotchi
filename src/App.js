@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import qs from 'qs';
-import Home from './Components/Home.js';
-import Search from './Components/Search.js';
-import Login from './Components/Login';
-import CreateUser from './Components/CreateUser';
-import UserProfile from './Components/UserProfile';
+import Home from './components/Home.js';
+import Search from './components/Search.js';
+import Login from './components/Login';
+import CreateUser from './components/CreateUser';
+import UserProfile from './components/UserProfile';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const headers = () => {

@@ -1,5 +1,5 @@
 body {
-  font-family: verdana;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 0;
   font-weight: bolder;
 }
@@ -45,7 +45,7 @@ h1 {
 
 section {
   display: flex;
-  border: solid 2px teal;
+  border: solid 2px red;
   border-radius: 3rem;
   flex-direction: column;
   align-items: center;
