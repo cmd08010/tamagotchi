@@ -6,6 +6,7 @@ const morgan = require('morgan')
 const db = require('./db/db')
 const fs = require('fs')
 const models = db.models
+
 const bodyParser = require('body-parser')
 
 
@@ -74,6 +75,16 @@ app.put('/api/auth/:id', (req, res, next) => {
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
+
+app.get('/api/pets/:id', (req, res, next) => {
+  db.getPet(req.body).then(response => res.send(response)).catch(next)
+})
+
+app.get('/api/pets', (req, res, next) => {
+  console.log(req.params)
+
+})
+
 
 //////////////////post////////////////////
 
