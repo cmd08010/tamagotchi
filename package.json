@@ -18,7 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-loader": "^8.1.0",
     "bable-loader": "0.0.1-security",
     "bcrypt": "^5.0.0",
